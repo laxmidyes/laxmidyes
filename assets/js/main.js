@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 statusNode.className = 'form-status';
                 form.appendChild(statusNode);
             }
-            const endpoint = form.dataset.endpoint || 'https://formspree.io/f/xgejbqed';
+                const endpoint = form.dataset.endpoint || 'https://formspree.io/f/mqedakaq';
 
             form.addEventListener('submit', async (event) => {
                 event.preventDefault();
